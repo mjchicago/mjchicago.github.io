@@ -1,8 +1,19 @@
-
-
-body{background-color:white;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
-h1{color:black;text-align:center;}
-p{color-black;}
-h2{color-red;text-align:center;font-style:italic;}
-
-
+body{
+  color:#222;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h2{
+  color:red;
+  font-style:italic;
+}
+#splash {
+  background:url(../images/machu_picchu_mjoseph.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:bottom center;
+  color:#fff;
+  height:85vh; /* % of the viewport */
+}
+#splash div {
+  padding:10em 5em;
+}
