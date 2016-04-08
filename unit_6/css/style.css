@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  color:#222;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+footer{
+  background-color:#F8F8F8;
+  border: 1px black solid;
+  padding: 0px;
+}
+header{
+  background-color:#F8F8F8;
+  border: 1px black solid;
+  padding: 0px;
+}
+h1{
+  color:white;
+  font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h2{
+  color:red;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#splash {
+  background:url(../images/machu_picchu_mjoseph.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:bottom center;
+  color:#fff;
+  height:85vh; /* % of the viewport */
+}
+#splash div {
+  padding:10em 5em;
+}
+#introafterphoto {
+  color:white;
+  font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
+#introafterphoto div{
+   padding:10em 5em; /* not sure what I am doing here*/
+}
+#id "marshasubhead" {
+  color: white; /*this does not seem to be working*/
+}
+article{
+  background-color:#E8E8E8;
+  border:1px black solid;
+  padding: 10px;
+}
