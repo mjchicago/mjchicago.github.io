@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+header{
+  background-color:#FFED74;
+  border: 1px black solid;
+  padding: 20px;
+}
+nav{
+  background-color:#E8C66A;
+  border:1px black solid;
+  padding: 20px;
+}
+aside{
+  background-color:#FFC675;
+  border:1px black solid;
+  padding: 20px;
+}
+article{
+  background-color:#E89C6C
+  border:1px black solid;
+  padding: 20px;
+}
+footer{
+  background-color:#FF957E;
+  border:1px black solid;
+  padding: 20px;
+}
+div{
+  background-color:#FFE2B8; /* which div is this? Define each?*/
+  border:1px black solid;
+  padding: 20px;
+}
+body{
+  color:#222;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1{
+  color:white;
+  font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h2{
+  color:red;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#splash {
+  background:url(../images/machu_picchu_mjoseph.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:bottom center;
+  color:#fff;
+  height:85vh; /* % of the viewport */
+}
+#splash div {
+  padding:10em 5em;
+}
+#introafterphoto {
+  color:blue;
+  font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
