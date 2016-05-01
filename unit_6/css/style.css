@@ -7,12 +7,12 @@ body{
 footer{
   background-color:#F8F8F8;
   border: 1px black solid;
-  padding: 0px;
+  padding: 1px;
 }
 header{
   background-color:#F8F8F8;
   border: 1px black solid;
-  padding: 0px;
+  padding: 1px;
 }
 h1{
   color:white;
@@ -121,4 +121,3 @@ nav {
   float:left;
   margin-left: 20px;
 }
-
