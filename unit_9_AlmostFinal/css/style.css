@@ -4,11 +4,12 @@ body{
   color:#222;
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
+  line-height:120%;
   border: 1em;
 }
 footer{
   background-color:#F8F8F8;
-  border: 1px black solid;
+  border: 1px;
   padding: 1px;
   font-size: .8em;
   float:left;
@@ -16,22 +17,19 @@ footer{
 }
 header{
   background-color:#F8F8F8;
-  border: 1px black solid;
-  padding: 1px;
+  border: .5em;
+  padding: .5em;
   font-size: 1em;
 }
 h1{
   color:white;
+  font-weight:bold;
   font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h2{
-  color:black;
+  color:white
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-.subhead{
-  color:white;
-  font-family:"Open Sans","Helvetica Neue"Helvetica,Arial,sans-serif;
- }
 #splash {
   background:url(../images/machu_picchu_mjoseph_resized.jpg);
   background-repeat:no-repeat;
@@ -160,7 +158,6 @@ nav a:active {
   vertical-align: middle;
   border: 0;
 }
-
 @media only screen and (max-width: 800px) {
   nav {
     float: none;
