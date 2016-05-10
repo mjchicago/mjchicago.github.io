@@ -1,11 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+<<<<<<< Updated upstream
 * { margin:0; padding:0; box-sizing:border-box;}
+=======
+* {margin:0; padding:0; box-sizing:border-box;}
+>>>>>>> Stashed changes
 body{
   color:#222;
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
+<<<<<<< Updated upstream
   line-height: 1.2;
+=======
+  line-height:1.2;
+>>>>>>> Stashed changes
   border: 1em;
+  margin:0; padding:0; box-sizing:border-box;
 }
 footer{
   background-color:#F8F8F8;
@@ -25,8 +34,13 @@ h1{
   color:white;
   font-weight:bold;
   font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+<<<<<<< Updated upstream
   margin: 0;
   padding: 5em 0 0 2em;
+=======
+  margin:0;
+  padding: 5em; 0 0 2em;
+>>>>>>> Stashed changes
 }
 h2{
   color:white
@@ -52,12 +66,17 @@ h2{
   width:20%;
 }
 #introafterphoto {
+<<<<<<< Updated upstream
   font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   width: 600px;
   margin: auto;
 }
 #introafterphoto div{
    padding:1em 1em; /* not sure what I am doing here*/
+=======
+  font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; 
+  padding: 1em 1em;
+>>>>>>> Stashed changes
 }
 
 article{
@@ -74,14 +93,10 @@ nav {
   color: black;
 }
 nav a{
-  color: black;
   border: 1px solid black;
   padding: 3px;
   background-color:#E8E8E8;
 }
-/* unvisited link */
-nav a:link {
-  color: black;
 /* visited link */
 }
 nav a:visited {
@@ -166,12 +181,6 @@ gsdf {  /* this is 1 of 2 columns (sections) on home page */
     float: none;
     width: auto;
     font-size:1em;
-    h1:1em;
-    h2:.8em;
-    h3:.7em;
-    h4:.6em;
-    h5:.5em;
-    h6:.4em;
       }
   }
 @media only screen and (max-width: 400px) {
@@ -179,9 +188,6 @@ gsdf {  /* this is 1 of 2 columns (sections) on home page */
     float: none;
     width: auto;
     font-size:.5em;
-    h1:.5em;
-    h2:.4em;
-    h3:.35em;
       }
   }
 
