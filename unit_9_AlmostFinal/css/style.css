@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
+* { margin:0; padding:0; box-sizing:border-box;}
 body{
   color:#222;
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
-  line-height:120%;
+  line-height: 1.2;
   border: 1em;
 }
 footer{
@@ -25,6 +25,8 @@ h1{
   color:white;
   font-weight:bold;
   font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0;
+  padding: 5em 0 0 2em;
 }
 h2{
   color:white
@@ -50,8 +52,9 @@ h2{
   width:20%;
 }
 #introafterphoto {
-  color:black;
-  font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; 
+  font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  width: 600px;
+  margin: auto;
 }
 #introafterphoto div{
    padding:1em 1em; /* not sure what I am doing here*/
@@ -96,6 +99,9 @@ nav a:active {
 
 .wrapper {
   background-color: gray;
+  width: 1200px;
+  margin: auto;
+  padding: 2em;
 }
 
 .cuscoimage {
@@ -144,14 +150,11 @@ nav a:active {
   float: left;
 }
 
-#trips {  /* this is 1 of 2 columns (sections) on home page */
-  width:40%;
+#trips,#events {  /* this is 1 of 2 columns (sections) on home page */
+  width: 50%;
   float:left;
-  margin-left: 10%;
-  vertical-align: middle;
-  border: 0;
 }
-#events {  /* this is 1 of 2 columns (sections) on home page */
+gsdf {  /* this is 1 of 2 columns (sections) on home page */
   width:40%;
   float:left;
   margin-left: auto;
